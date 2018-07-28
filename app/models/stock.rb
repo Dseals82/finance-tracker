@@ -7,8 +7,8 @@ class Stock < ApplicationRecord
     rescue Exception => e
       return nil
     end
-    def self.strip_commas(number)
-      number.gsub(",","")
-    end
+    # def self.strip_commas(number)
+    #   number.gsub(",","")
+    # end
   end
 end
